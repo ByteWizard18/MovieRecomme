@@ -1,7 +1,6 @@
 import streamlit as st
 import pickle
 import pandas as pd
-import bz2
 
 
 
@@ -22,7 +21,7 @@ def recommend(movie):
 movies_dict = pickle.load(open('movies_dict.pkl','rb'))
 movies = pd.DataFrame(movies_dict)
 
-with bz2.BZ2File('similarity.pkl.bz2', 'rb') as f:
+with bz2.BZ2File('similarity.pkl', 'rb') as f:
     similarity = pickle.load(f)
 
 st.title('Movie Recommender System')
