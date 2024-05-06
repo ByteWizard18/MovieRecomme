@@ -6,6 +6,9 @@
 ## Overview
 This project presents a Movie Recommender System implemented with Streamlit, a powerful Python library for creating interactive web applications. The system is designed to provide users with personalized movie recommendations based on their preferences and past viewing history.
 
+## Live Demo
+[live project link](https://movierecommendersystemproject.streamlit.app/)
+
 ## Key Features
 - **User-Friendly Interface**: The application offers an intuitive and easy-to-use interface for users to input their preferences and explore recommendations.
 - **Personalized Recommendations**: Leveraging collaborative filtering algorithms, the system delivers tailored movie suggestions to each user.
