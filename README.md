@@ -28,6 +28,9 @@ This project presents a Movie Recommender System implemented with Streamlit, a p
 4. **Access the Application**:
    Open a web browser and navigate to `http://localhost:8501` to access the Movie Recommender System.
 
+5. **Deployed Project link**:
+   [Add your deployed project link here](https://movierecommendersystemproject.streamlit.app/)
+
 ## Usage
 1. **Input Preferences**: Users can specify their movie preferences, including genres, actors, directors, etc., to receive personalized recommendations.
 2. **Explore Recommendations**: Based on the input provided, the system generates a list of recommended movies ranked by relevance to the user's preferences.
